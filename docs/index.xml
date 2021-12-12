@@ -8,5 +8,16 @@
 </description>
     <generator>Distill</generator>
     <lastBuildDate>Sun, 12 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Our house</title>
+      <dc:creator>Stephen James Price</dc:creator>
+      <link>https://lizardburns.github.io/dy8-retrofit/posts/2021-12-12-our-house</link>
+      <description>How it started.</description>
+      <category>existing</category>
+      <category>plans</category>
+      <guid>https://lizardburns.github.io/dy8-retrofit/posts/2021-12-12-our-house</guid>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://lizardburns.github.io/dy8-retrofit/posts/2021-12-12-our-house/../../images/elevations.png" medium="image" type="image/png" width="2070" height="1180"/>
+    </item>
   </channel>
 </rss>
