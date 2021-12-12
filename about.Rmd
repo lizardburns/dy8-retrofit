@@ -1,0 +1,17 @@
+---
+title: "About this blog"
+description: |
+  In search of serious comfort and sustainability at home
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+This is a blog about a house renovation project, with an emphasis on low energy and low impact building approaches which follow "fabric first" principles ([passivhaus](passivhaus.html)), taking in some of the practical and technical design considerations as well as the various stages of the build with a big dose of DIY.  
+
+In 2019 I moved out of London. The affordability of housing in the capital was a significant barrier to us buying a family home so we traded our 1.5 bed flat in north-east London for a 3-bed 1970s end-terrace in the lovely West Midlands' town of Stourbridge. It was a great house in a great spot and we wanted to turn it into a home where our kids (now 8 and 11 years old) could grow up and where we could minimise our domestic environmental footprint.  
+
+Of course, then came the coronavirus pandemic and, for many of us, a new relationship with our homes. Home as a workplace. Home as a school. Family life revolving around the dinner table like never before.  
+
+So our idea is to extend and remodel the house and drive down the energy use as far as possible, whilst setting the building up for its next 50 years of use. 
