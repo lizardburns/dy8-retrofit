@@ -3,7 +3,7 @@ title: "Our house"
 description: |
   How it started.
 author:
-  - name: Stephen James Price
+  - name: Stephen J. Price
 date: 2021-12-12
 preview: ../../images/elevations.png
 categories:
