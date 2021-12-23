@@ -5,6 +5,7 @@ description: |
 author:
   - name: Stephen J. Price
 date: 2021-12-20
+preview: ../../images/extension.png
 categories:
   - plans
 citation: false
