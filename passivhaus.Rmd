@@ -57,4 +57,7 @@ cowplot::plot_grid(heating, at, ncol = 1)
 ```
 
 ## Renewables
-While the focus is on building fabric it obviously makes sense to add renewables and we'll be using an air source heat pump to provide heating and hot water as well as strengthening the roof to allow solar to be added later.  
+While the focus is on building fabric it obviously makes sense to add renewables and we'll be using an air source heat pump to provide heating and hot water as well as strengthening the roof to allow solar to be added later.   
+
+## Find out more
+This has been a whistle-stop tour of the fundamentals of passivhaus. If you want to find out more, [Elrond Russell's blogs on passivhaus might be a good place to take a look](https://elrondburrell.com/blog/category/passivhaus-basics/).  
