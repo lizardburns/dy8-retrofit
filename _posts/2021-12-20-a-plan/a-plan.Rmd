@@ -19,6 +19,11 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+```{r env}
+library(magrittr)
+source("R/functions.R")
+```
+
 In 2019, my very basic plan was: 
 
 - `r emo::ji("check")` buy a house (see [Our house](https://lizardburns.github.io/dy8-retrofit/posts/2021-12-12-our-house/)),
@@ -43,14 +48,22 @@ We are building at the back to create a large kitchen-diner.
 - We'll have an extra 2.5m of depth internally across the full width (~4.5m) so plenty of space for cooking, dining, doing homework, working, etc. 
 - The extension will be built on a raft foundation and this will join with the existing house in a continuous slab as we will be breaking out the existing to insulate under.  
 
-![Extension with living roof to the kitchen](../../images/extension.png)
+```{r}
+copywrite("images/extension.png")
+```
+
+![Extension with living roof to the kitchen © GSD Architecture](../../images/cw/extension.png)
 
 ## House front and garage conversion
 The internal garage will become a flexible space that can work as an office, a project and crafting room, a guest bedroom and utility/plant room. To do this we'll also pinch some space from the very wide hallway and a couple of large built-in cupboards (one housing the gas, which is being disconnected, and the electricity, and the other housed the old warm air heating).  
 
 The existing front is mostly garage door, main entrance and windows. There's a bit of cavity wall at ground floor level but then it's solid at first floor and timber stud and tiled at second floor level. We're going to take the whole front down. We will rebuild the first two floors in timber frame, as per the extension with the same cedar-cladding at ground-level (planners insisted we maintained the street-view rather than replace the existing first-floor horizontal cladding as well, which is what we proposed). At second-floor level, we'll remove the tiles to replace the existing felt vapour control layer in order to be able to insulate between the studs (no insulation at present `r emo::ji("horror")`), which we'll set a bit further back, as wekk as adding some insulation cheeks around the dormer window where up to now we've only been separated from the elements by a bit of lead and a sheet of hardboard! We'll also add some fire-stop insulation to the front edge of the party wall so that we can no longer reach through and knock on the plasterboard of our neighbours' bedroom `r emo::ji("lol")`.  
 
-![The look of the renovated front](../../images/frontage.png)
+```{r}
+copywrite("images/frontage.png")
+```
+
+![The look of the renovated front © GSD Architecture](../../images/cw/frontage.png)
 
 ## Roof
 The existing roof is weird and has never been renovated as far as I can tell. It's a flat roof with a "woodwool" deck that was apparently covered by pouring a liquid bitumen and adding a bit of felt around the edges to create shallow parapets.  
@@ -61,20 +74,36 @@ For most of the planning period, we've been thinking of covering the existing ro
 
 - **Bathroom and "third" bedroom** - These rooms will swallow most of the first floor landing and the partition is being moved over. The third bedroom will be significantly bigger and its entrance moved round to the bottom of the second stair to make it feel more connected to the second floor bedrooms whilst no longer feeling so clearly like the "small" bedroom relative to the others.
 
+```{r}
+copywrite("images/bath_bed.png")
+```
+
 <figure>
-  <img src="../../images/bath_bed.png" alt="Longer, thinner bathroom and larger third bedroom" width="200"/>
-  <figcaption>Longer, thinner bathroom and larger third bedroom</figcaption>
+  <img src="../../images/cw/bath_bed.png" alt="Longer, thinner bathroom and larger third bedroom © GSD Architecture" width="200"/>
+  <figcaption>Longer, thinner bathroom and larger third bedroom © GSD Architecture</figcaption>
 </figure>
 
 - **Second shower** - the needlessly large "main" bedroom will be trimmed to make room for a shower room. Other houses on our street have sacrificed the size of the second bedroom to convert the second-floor WC into a small, second bathroom. This idea never appealed to me as bedroom 1 is too big but bedroom 2 is a great size. Our shower won't have a window and adds a complication in having to get the waste back over towards the rear but ends up with two nicely sized second floor bedrooms and a symmetrical landing leading to the shower and WC on each side.  
 
-![](../../images/second_shower_section.png)
-![Making room for a second shower](../../images/second_shower_plan.png)
+```{r}
+copywrite("images/second_shower_section.png")
+```
+
+![© GSD Architecture](../../images/cw/second_shower_section.png)
+```{r}
+copywrite("images/second_shower_plan.png")
+```
+
+![Making room for a second shower © GSD Architecture](../../images/cw/second_shower_plan.png)
 
 ## External wall insulation (EWI)
 The existing cavity walls have been filled with a good blow-in insulation but the thermal performance is still pretty modest as the cavity is not very big. Where we are retaining them, above the extension at the rear and down the side, we are going to had 200mm of polystyrene (EPS). Most of it will be rendered but the planners wanted brick-slips for the first 2m to maintain the street-view so we've had to go along with that (despite the expense and resources).  
 
-![External wall insulation at the side with mixture of render and brickslips](../../images/brick_slips.png)
+```{r}
+copywrite("images/brick_slips.png")
+```
+
+![External wall insulation at the side with mixture of render and brickslips © GSD Architecture](../../images/cw/brick_slips.png)
 
 ## Heat and hot water
 We only got one winter out of our old warm air heating before it died just as we went into our second winter in the house. The local heating and gas engineering company that service most the warm air heating in the area felt it had come to the end of its life so we went forward with plug-ins and a Calor gas heater. We're ripping out all the ducting to replace with an air source heat pump, hot water cylinder and underfloor heating (UFH) on all floors (replacing floorboards upstairs with structural routed chipboard). Given the very low heating demand you get with a passivhaus, this is overkill but having heated floors everywhere is definitely going to be luxurious and we also won't take up any wall space with oversized radiators meaning less restrictions in terms of changing up room configurations. Of course, floor finish matters for UFH: we'll finish the ground floor by polishing the concrete (`r emo::ji("cross")` for a suitably smooth finish when we put the slab in!) and tile the bathroom floors but are still to work out floor finishes elsewhere.  
@@ -84,4 +113,8 @@ We'll be scaling our stack of cash-machine-sized holes down to a bank-card-sized
 
 Ventilation will be taken care of by a mechanical unit with heat recovery ([MVHR, read more about that via Green Building Store](https://www.greenbuildingstore.co.uk/information-hub/heat-recovery-ventilation-mvhr/)). Essentially, supply and extract ducts push fresh air in and pull stale air out whilst transferring the heat between them at high efficiency to limit heat loss whilst ensuring a really healthy living environment. Our system is being designed by Green Building Store but has still required a lot of thought and head-scratching from me so look out for a dedicated post on this.  
 
-![Mechanical ventilation with heat recovery: 3D schematic](../../images/mvhr_3d.png)
+```{r}
+copywrite("images/mvhr_3d.png", who = "Green Building Store")
+```
+
+![Mechanical ventilation with heat recovery: 3D schematic © Green Building Store](../../images/cw/mvhr_3d.png)

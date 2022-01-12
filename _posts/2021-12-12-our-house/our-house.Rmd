@@ -20,17 +20,38 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+```{r env}
+library(magrittr)
+source("R/functions.R")
+```
+
 We moved into an end-terrace in Stourbridge in 2019. The house was built sometime between 1970 & 1972 and is a really simple box over 3 floors with a flat roof. We liked the size and simple, modest nature of the house as well as its location near to a mainline railway station into Birmingham (and London) and a short walk from a bustling town centre full of independent businesses. It's also close to a run of shops and a secondary school with a great culture.  
 
 The house has an internal garage with a kitchen on the back and the lounge on the first-floor. There's a drive to the front and a small garden at the rear. The floorplan and existing elevations are shown in figs 1-4.  
 
-![Figure 1: Existing ground floor plan](../../images/ground_plan.png)
+```{r}
+copywrite("images/ground_plan.png")
+```
 
-![Figure 2: Existing first floor plan](../../images/first_plan.png)
+![Figure 1: Existing ground floor plan © GSD Architecture](../../images/cw/ground_plan.png)
 
-![Figure 3: Existing second floor plan](../../images/second_plan.png)
+```{r}
+copywrite("images/first_plan.png")
+```
 
-![Figure 4: Existing front and rear elevations](../../images/elevations.png)
+![Figure 2: Existing first floor plan © GSD Architecture](../../images/cw/first_plan.png)
+
+```{r}
+copywrite("images/second_plan.png")
+```
+
+![Figure 3: Existing second floor plan © GSD Architecture](../../images/cw/second_plan.png)
+
+```{r}
+copywrite("images/elevations.png")
+```
+
+![Figure 4: Existing front and rear elevations © GSD Architecture](../../images/cw/elevations.png)
 
 Many of the other houses on the street that were built at the same time have been extended at the back and modernised to some extent by installing standard gas central heating with radiators, or recovering the roof, or such. Others have tweaked the internal layout slightly, through basic garage conversions or pinching space from the first floor landing to enlarge the main bathroom and/or the second floor rear bedroom to turn the WC into a shower room.
 
