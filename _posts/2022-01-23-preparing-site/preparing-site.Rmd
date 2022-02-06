@@ -1,0 +1,104 @@
+---
+title: "Preparing the site"
+description: |
+  Turning a house into a construction site.
+author:
+  - name: Stephen J. Price
+    url: {}
+date: 2022-01-23
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Turning our home of 2 and a half years into a construction site has happened in a number of stages. The time and effort needed were definitely underestimated `r emo::ji('scream')`.  
+
+## Finding temporary accommodation
+The extent of the work we are undertaking meant moving out was the best option for us. We spent a couple of months watching the rental market and saw a few places towards the end before moving at the start of November 2021. Location (5 mins walk around the corner), length of tenancy (landlord was fine with 6 month assured shorthold tenancy) and cost (the cheapest house) were ultimately the key factors in our choice. Storage (no garage or shed for stowing our belongings or storing construction materials), comfort (it's a dark, cold and long-term neglected mid-terrace with no insulation or draft-proofing plus noise from the neighbouring pub, main road and pedestrian crossing `r emo::ji("cry")`) were the most significant compromises.  
+
+As well as being nearby the rental has had a few other positives:
+
+- Several of our youngest child's friends' homes are on the same route to school and we now pied-piper our way there with each generation relaying the morning's incidents of lost instruments, inappropriate clothing and covid tests `r emo::ji("instrument")`.
+- Our other daughter started secondary school in September and her morning meeting/'hang-out' point remains the same distance away, still on her direct route `r emo::ji("cool")`.
+- Informing the plan at home. Youngest daughter got first pick of the rooms and it was beautiful to watch her make use of the extra space (having vacated the 'box' room) so we have tweaked the floor plan to give her as much space as we can in her renovated bedroom at home.
+
+## Moving house
+We went solo on the removals and I think it was the last time we'll do a house move in quite the way we did. We did everything ourselves over a weekend (without taking time off work) coming on the back of the most sedentary period in our lives. The kids were in tow for part (youngest) or most (eldest) and did what they could to help, but it was a major slog even with a Luton and tail-lift to help and the proximity.  
+
+The rental place had no storage, cooker, insulation or draft-proofing so it took another couple of weeks of free-time to get:
+
+- a gas cooker installed (we had just celebrated getting the gas disconnected at home)
+![Goodbye gas](../../images/goodbye_gas.jpg)
+![Hello again!]()
+- 'Tat furniture' built from my collection of scavenged and recycled furniture and off-cuts
+![Tat furniture storage]()
+- some initial draft-proofing done
+- a leak in the roof patched
+- a replacement mixer bar in the shower to end a mould-inducing leak
+
+and a while longer to get:
+- some insulation up in the loft
+![A blanket in the roof]()
+- all our belongings off site. *Literally everything* (EVERY THING) we owned needed to be moved out, either reunited with us, given away (freagle did a job), recycled or skipped
+![fixtures and fittings rehomed](../../images/freegle.png)
+## Stripping out
+Stripping out was a fair amount of fun and included:
+
+- kitchen and bathrooms
+- ceilings
+![A lot of ceilings were taken out](../../images/stripping/ceilings.jpg)
+- plasterboard linings elsewhere
+![Happy to see this wall start to be upgraded](../../images/stripping/plasterboard_linings.jpg)
+
+- electrics
+![The house is well overdue for a rewire](../../images/stripping/electrics.jpg)
+
+- plaster
+![Chopping out the plaster in critical areas](../../images/stripping/plaster.jpg)
+
+- stud walls
+![Stud walls were removed due to remodelling, soundproofing and airtightness work at junctions](../../images/stripping/stud_walls.jpg)
+
+- the warm air heating ducts and flue that had survived up to now
+![Warmer days in store. What's left of the broken heating system makes way](../../images/stripping/warm_air_flue.jpg)
+
+## Construction phase plan
+One of the responsibilities of the principal contractor is to prepare and manage this plan. It covers the following key areas:
+
+### Health and safety
+
+### Security
+
+### Induction
+Everyone coming on site needs an induction appropriate for the activities they will participate in on site. It should cover...
+
+Airtightness induction is an additional key topic in a passivhaus project.
+
+## Site infrastructure
+### Storage
+We're going to need storage for equipment and materials and I'm already anticipating this being a real challenge of our build. The fact that no part of the house is escaping some significant work and the cramped nature of the site mean that we are not simply going to be able to demarcate areas for this for the whole of the project but are going to have to move the location of these areas as we go along. It's not ideal given the extra work and planning it will involve but it's probably not uncommon.  
+
+I recycled materials from the stripping out to build a large rack in the house for tools and kit. It will be possible to move it around the site (with some effort) as needed and provides the best security. It also has some space and hooks at the ends for hanging clothes and bags out of the way.  
+
+I also freed up as much space in the shed (formerly my office and a store) as possible to make use of the existing racking in there.  
+
+### Access
+Yes, companies are soon going to ask about access for delivery vehicles so you need to think about the size of vehicle that you can realistically get to site and factor this in when sourcing materials. There's also the issue of moving goods around on site, which might even need you to sequence the delivery of goods and works in order to get materials where you need them (particularly, in our case, the 8 by 4 sheet materials to the upper floors!).  
+
+### Services
+Safe provision of power and water are obviously essential throughout the build. We are demolishing the walls around the electric meter and consumer unit so temporary arrangements are needed. The mains water also needs repairs and potentially relocation. Initially, the plumbing to the main bathroom have been left in place but it won't be long before this comes out to leave just a tap in place on the ground floor as the soil vent pipe needs to come out to allow installation of the new steel frame at the back.  
+
+### Admin
+There's going to be a reasonable amount of paperwork on site, including drawings, reports and material specifications, as well as delivery notes and invoices, and documentation linked to the construction phase plan. To ensure that none of this gets lost and that everyone who needs such docs has good access, it's important to make provision at the outset. Some sort of filing system (I recycled some suitable boxes the kids had been using as post boxes), a notice board, and a desk/table (recycled materials from the stripping out) to spread out drawings on seemed like the essentials at this point.  
+
+![A combined admin and tea-making hub]()
+
+### Contractor facilities
+As well as somewhere to store clothes and bags, there needs to be somewhere to make a brew, somewhere to sit for breaks and somewhere to go to the toilet in private.
+
+### Equipment

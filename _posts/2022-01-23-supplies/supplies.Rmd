@@ -1,0 +1,40 @@
+---
+title: "Supplies"
+description: |
+  Getting materials on site.
+author:
+  - name: Stephen J. Price
+    url: {}
+date: 2022-01-23
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Concrete and reinforcement
+## Fixtures and fittings
+- Kitchen
+- Bathrooms
+- Blinds/Curtains
+- Electrics
+- plumbing
+- audio
+## Hardware/Ironmongery
+## Heating
+## Hot water
+## Insulation
+- Raft
+- Warmcel
+- Other
+## MVHR
+## Structural steel
+## Timber-frame
+- JJI joists
+- Sheathing
+## Windows
