@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
-  <link rel="alternate" type="application/rss+xml" href="https://lizardburns.github.io/dy8-retrofit/index.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -88,20 +87,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>A fabric first renovation of a family home</title>
+  <title>A fabric first renovation of a family home: Timeline</title>
 
+  <meta property="description" itemprop="description" content="Timeline for key events."/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="A fabric first renovation of a family home"/>
+  <meta property="og:title" content="A fabric first renovation of a family home: Timeline"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Timeline for key events."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="A fabric first renovation of a family home"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="A fabric first renovation of a family home"/>
+  <meta property="twitter:title" content="A fabric first renovation of a family home: Timeline"/>
+  <meta property="twitter:description" content="Timeline for key events."/>
   <meta property="twitter:site" content="@lizardburns"/>
   <meta property="twitter:creator" content="@lizardburns"/>
 
@@ -109,7 +111,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["A fabric first renovation of a family home"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Timeline"]},{"type":"character","attributes":{},"value":["Timeline for key events."]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2038,6 +2040,24 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+  <link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+  <script src="site_libs/datatables-binding-0.20/datatables.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <link href="site_libs/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" />
+  <link href="site_libs/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet" />
+  <script src="site_libs/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
+  <link href="site_libs/dt-ext-buttons-1.11.3/css/buttons.dataTables.min.css" rel="stylesheet" />
+  <script src="site_libs/dt-ext-buttons-1.11.3/js/dataTables.buttons.min.js"></script>
+  <script src="site_libs/dt-ext-buttons-1.11.3/js/buttons.html5.min.js"></script>
+  <script src="site_libs/dt-ext-buttons-1.11.3/js/buttons.colVis.min.js"></script>
+  <script src="site_libs/dt-ext-buttons-1.11.3/js/buttons.print.min.js"></script>
+  <link href="site_libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet" />
+  <script src="site_libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+  <link href="site_libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet" />
+  <script src="site_libs/selectize-0.12.0/selectize.min.js"></script>
+  <link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+  <script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2071,12 +2091,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"A fabric first renovation of a family home","authors":[]}
+{"title":"Timeline","description":"Timeline for key events.","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2111,216 +2131,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).on("load", function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      page_category = decodeURIComponent(page_category)
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
-<div class="posts-list">
-<h1 class="posts-list-caption" data-caption="A fabric first renovation of a family home">A fabric first renovation of a family home</h1>
-<a href="posts/2021-12-20-a-plan/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["plans"]}</script>
-<div class="metadata">
-<div class="publishedDate">Dec. 20, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Stephen J. Price</div>
-</div>
-</div>
-<div class="thumbnail">
-<img src="posts/2021-12-20-a-plan/../../images/extension.png"/>
-</div>
-<div class="description">
-<h2>A plan</h2>
-<div class="dt-tags">
-<div class="dt-tag">plans</div>
-</div>
-<p>2.5 years of thinking about space and energy</p>
-</div>
-</a>
-<a href="posts/2021-12-12-our-house/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["existing","plans"]}</script>
-<div class="metadata">
-<div class="publishedDate">Dec. 12, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Stephen J. Price</div>
-</div>
-</div>
-<div class="thumbnail">
-<img src="posts/2021-12-12-our-house/../../images/elevations.png"/>
-</div>
-<div class="description">
-<h2>Our house</h2>
-<div class="dt-tags">
-<div class="dt-tag">existing</div>
-<div class="dt-tag">plans</div>
-</div>
-<p>How it started.</p>
-</div>
-</a>
-</div>
-<div class="posts-sidebar">
-<div class="sidebar-section categories">
-<h3>Categories</h3>
-<ul>
-<li>
-<a href="#category:articles">articles</a>
-<span class="category-count">(2)</span>
-</li>
-<li>
-<a href="#category:existing">existing</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:plans">plans</a>
-<span class="category-count">(2)</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>A fabric first renovation of a family home</h1>
+<h1>Timeline</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p><p>Timeline for key events.</p></p>
 </div>
 
 
 <div class="d-article">
+<p>These things take a while 😄. Here’s a timeline for most of the key events:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div id="htmlwidget-ea35f7ea031a89d8b0c5" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-ea35f7ea031a89d8b0c5">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"date\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"1.559952e+12\" data-max=\"1643673600000\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"date\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"1560643200000\" data-max=\"1.644192e+12\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["Buttons"],"data":[["2019-06-08","2019-06-13","2019-08-10","2019-11-27","2020-01-10","2020-03-23","2020-04-17","2020-12-01","2021-09-06","2021-10-08","2021-10-12","2021-10-29","2021-11-08","2021-11-23","2021-12-22","2021-12-24","2022-01-11","2022-01-13","2022-01-15","2022-01-17","2022-01-19","2022-01-23","2022-01-25","2022-01-28","2022-02-01"],["2019-06-16","2019-07-01",null,null,"2020-03-16","2020-09-01","2020-06-05",null,null,null,null,null,"2022-02-07",null,null,null,null,null,null,null,null,null,null,null,null],["Plastering course","Retrofit training","First meeting with architect","Initial design proposal","Pre-app &amp; negotiations","Lockdown &amp; new demands on home","Planning Application","Heating broke","MVHR design draft version A","Requested Warmcel quotes","Submitted job to engineers","Raft survey","Site preparation","Beam report","Raft report","Received construction drawings","Requested JJI joist quotes/designs","Instructed approved inspector","Initial notice served to LABC","Thermal break and joists sign-off for steel frame at rear","Planning enquiry for ASHP","Stayed at Hale House","Airtightness training","Steel beam survey","Plan check"],["Training","Training","Design","Design","Planning",null,"Planning",null,"Design","Quotes","Design","Design","Site preparation","Design","Design","Design","Quotes","Building control","Building control","Design","Planning",null,"Training","Design","Building control"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>from<\/th>\n      <th>to<\/th>\n      <th>event<\/th>\n      <th>category<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"Btp","pageLength":50,"buttons":[{"extend":"csv","filename":"timeline","text":"Download CSV"}],"order":[],"autoWidth":false,"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

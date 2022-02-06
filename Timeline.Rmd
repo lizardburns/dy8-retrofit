@@ -1,0 +1,35 @@
+---
+title: "Timeline"
+description: |
+  Timeline for key events.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(dplyr)
+```
+
+These things take a while `r emo::ji("smile")`. Here's a timeline for most of the key events:
+
+```{r}
+dat <- readr::read_csv("data/schedule.csv") %>% 
+  mutate(across(c(from, to), lubridate::dmy))
+
+DT::datatable(
+  dat,
+  rownames = FALSE,
+  filter = "top",
+  extensions = 'Buttons',
+  # container = sketch,
+  options = list(
+    dom = 'Btp',
+    pageLength = 50,
+    # columnDefs = list(list(className = 'dt-right', targets = 1:8)),
+    buttons = list(
+      list(extend = 'csv', 
+           filename = "timeline", 
+           text = 'Download CSV')
+    ) # end of button list
+  ) # end of options
+)
+```

@@ -13,6 +13,8 @@ navbar:
       href: about.html
     - text: "Passivhaus"
       href: passivhaus.html
+    - text: "Timeline"
+      href: Timeline.html
     - icon: fa fa-twitter
       href: https://twitter.com/lizardburns
     - icon: fa fa-github
